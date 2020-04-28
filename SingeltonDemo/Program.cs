@@ -10,16 +10,16 @@ namespace SingletonDemo
     {
         static void Main(string[] args)
         {
-            /*Parallel.Invoke(
+            Parallel.Invoke(
                 () => PrintStudentDetails(),
                 () => PrintEmployeeDetails()
             );
-            Console.ReadLine();*/
-            Console.WriteLine($"|{"Left",-7}|{"Right",7}|");
+            Console.ReadLine();
+            /*Console.WriteLine($"|{"Left",-7}|{"Right",7}|");
 
             const int FieldWidthRightAligned = 20;
             Console.WriteLine($"{Math.PI,FieldWidthRightAligned} - default formatting of the pi number");
-            Console.WriteLine($"{Math.PI,FieldWidthRightAligned:F3} - display only three decimal digits of the pi number");
+            Console.WriteLine($"{Math.PI,FieldWidthRightAligned:F3} - display only three decimal digits of the pi number");*/
         }
 
         private static void PrintEmployeeDetails()
